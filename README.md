@@ -23,7 +23,7 @@ Prefix|	Namespace|	Vocabulary |
 
 
 
-### Klasse:Dataset (datasæt) - MANDATORY:
+### Klasse:Dataset (datasæt) 
 Property|	URI|	Range|	Usage note|	Card |
 |---|---|---|---|---|
 | description|  dct:description	 |  rdfs:Literal |  This property contains a free-text account of the Dataset. This property can be repeated for parallel language versions of the description.	 |  1..n |   |	
@@ -48,7 +48,7 @@ public administrative task type|	dcat-dk: publicAdministrative TaskType|	skos:Co
 ...
 
 
-### Klasse:Distribution (Datasætrepræsentation) - RECCOMMENDED:
+### Klasse:Distribution (Datasætrepræsentation) 
 Property|	URI|	Range|	Usage note|	Card |
 |---|---|---|---|---|
 | accessURL	|dcat:accessURL	|rdfs:Resource|	A URL of the resource that gives access to a distribution of the dataset. E.g. landing page, feed, SPARQL endpoint.	|1..n|		
