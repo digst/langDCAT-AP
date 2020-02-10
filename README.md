@@ -6,7 +6,6 @@ Prefix|	Namespace|	Vocabulary |
 |ms		|http://purl.org/ms-lod/MetaShare.ttl#	|	MetaShare|
 |owl	|	http://www.w3.org/2002/07/owl#	|	OWL Web Ontology Language|
 |voaf	|	http://purl.org/vocommons/voaf#	|	Vcommons|
-|xml	|	http://www.w3.org/XML/1998/namespace	|	XML Namespace|
 |dcat	|	http://www.w3.org/ns/dcat#	|		Data Catalog Vocabulary (DCAT)|
 |vann	|	http://purl.org/vocab/vann/	|		A Vocabulary for Annotating Vocabulary Description|
 |foaf	|	http://xmlns.com/foaf/0.1/	|		Friend of a Friend|
@@ -16,7 +15,7 @@ Prefix|	Namespace|	Vocabulary |
 |rdfs	|	http://www.w3.org/2000/01/rdf-schema#	|	RDF Schema 1.1|
 |dctype	|	http://purl.org/dc/dcmitype/		|	 DCMI Type|
 |schema	|	http://schema.org/	|			Schema.org
-|xsd	|	http://www.w3.org/2001/XMLSchema#	|	XML Schema |
+|xsd	|	http://www.w3.org/2001/XMLSchema#	|	XSD Schema |
 |vcard|	http://www.w3.org/2006/vcard/ns#| VCard Ontology
 |org	|	http://www.w3.org/ns/org# |		The Organization Ontology (W3C)|
 |dk		|http://www.data-knowledge.org/dk/	|	The Data Knowledge Vocabulary|
