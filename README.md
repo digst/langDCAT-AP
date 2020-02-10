@@ -1,25 +1,26 @@
 # langDCAT-AP
 
-ms: http://purl.org/ms-lod/MetaShare.ttl#
-Prefix		Namespace					Vocabulary		
-ms		http://purl.org/ms-lod/MetaShare.ttl#		MetaShare
-owl		http://www.w3.org/2002/07/owl#		OWL Web Ontology Language
-voaf		http://purl.org/vocommons/voaf#		Vcommons
-xml		http://www.w3.org/XML/1998/namespace		XML Namespace
-dcat		http://www.w3.org/ns/dcat#			Data Catalog Vocabulary (DCAT)
-vann		http://purl.org/vocab/vann/			A Vocabulary for Annotating Vocabulary Description
-foaf		http://xmlns.com/foaf/0.1/			Friend of a Friend
-skos		http://www.w3.org/2004/02/skos/core#		Simple Knowledge Organization System
-dct		http://purl.org/dc/terms/			Dublin Core Terms
-rdf		http://www.w3.org/1999/02/22-rdf-syntax-ns#	The RDF Concepts Vocabulary
-rdfs		http://www.w3.org/2000/01/rdf-schema#		RDF Schema 1.1
-dctype		http://purl.org/dc/dcmitype/			
-schema		http://schema.org/				Schema
-xsd		http://www.w3.org/2001/XMLSchema#		XML Schema
-vcard		http://www.w3.org/2006/vcard/ns#
-org		http://www.w3.org/ns/org# 		The Organization Ontology (W3C)
-dk		http://www.data-knowledge.org/dk/		The Data Knowledge Vocabulary
-dcat-dk		https://data.gov.dk/model/core/dcat-dk# 			DCAT DK	
+
+Prefix|	Namespace|	Vocabulary |
+|---|---|---|
+|ms		http://purl.org/ms-lod/MetaShare.ttl#	|	MetaShare|
+|owl		http://www.w3.org/2002/07/owl#	|	OWL Web Ontology Language|
+|voaf		http://purl.org/vocommons/voaf#	|	Vcommons|
+|xml		http://www.w3.org/XML/1998/namespace	|	XML Namespace|
+|dcat		http://www.w3.org/ns/dcat#	|		Data Catalog Vocabulary (DCAT)|
+|vann		http://purl.org/vocab/vann/	|		A Vocabulary for Annotating Vocabulary Description|
+|foaf		http://xmlns.com/foaf/0.1/	|		Friend of a Friend|
+|skos		http://www.w3.org/2004/02/skos/core#	|	Simple Knowledge Organization System|
+|dct		http://purl.org/dc/terms/	|	Dublin Core Terms|
+|rdf		http://www.w3.org/1999/02/22-rdf-syntax-ns#|	The RDF Concepts Vocabulary|
+|rdfs		http://www.w3.org/2000/01/rdf-schema#	|	RDF Schema 1.1|
+|dctype		http://purl.org/dc/dcmitype/		|	 DCMI Type|
+|schema		http://schema.org/	|			Schema.org
+|xsd		http://www.w3.org/2001/XMLSchema#	|	XML Schema |
+|vcard		http://www.w3.org/2006/vcard/ns#| VCard Ontology
+|org		http://www.w3.org/ns/org# |		The Organization Ontology (W3C)|
+|dk		http://www.data-knowledge.org/dk/	|	The Data Knowledge Vocabulary|
+|dcat-dk		https://data.gov.dk/model/core/dcat-dk# |			DCAT DK	|
 
 
 
@@ -54,7 +55,6 @@ Property|	URI|	Range|	Usage note|	Card |
 | accessURL	|dcat:accessURL	|rdfs:Resource|	A URL of the resource that gives access to a distribution of the dataset. E.g. landing page, feed, SPARQL endpoint.	|1..n|		
 | description|  dct:description	 |  rdfs:Literal |  This property contains a free-text account of the Distribution. This property can be repeated for parallel language versions of the description.	 |  0..n |   |	
 | title	|dct:title	|rdfs:Literal|	This property contains a name given to the Distribution. This property can be repeated for parallel language versions of the name.	|0..n|		
-| byte size|dcat:byteSize|xsd:decimal|This property contains the size of a Distribution in bytes.|0..1|
 | format |dct:format|dct:MediaTypeOrExtent|This property refers to the media type of the Distribution as defined in the official register of media types managed by IANA|0..1|
 | licence|dct:license|dct:LicenseDocument|This property refers to the licence under which the Distribution is made available. |0..1|
 | language	|dct:language	|dct:LinguisticSystem	|This property refers to a language of the Distribution. This property can be repeated if there are multiple languages in the Dataset.|	0..n|
