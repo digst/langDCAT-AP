@@ -3,7 +3,7 @@
 
 Prefix|	Namespace|	Vocabulary |
 |---|---|---|
-|ms		|http://purl.org/ms-lod/MetaShare.ttl#	|	MetaShare|
+
 |owl	|	http://www.w3.org/2002/07/owl#	|	OWL Web Ontology Language|
 |voaf	|	http://purl.org/vocommons/voaf#	|	Vcommons|
 |dcat	|	http://www.w3.org/ns/dcat#	|		Data Catalog Vocabulary (DCAT)|
@@ -19,6 +19,7 @@ Prefix|	Namespace|	Vocabulary |
 |vcard|	http://www.w3.org/2006/vcard/ns#| VCard Ontology
 |org	|	http://www.w3.org/ns/org# |		The Organization Ontology (W3C)|
 |dk		|http://www.data-knowledge.org/dk/	|	The Data Knowledge Vocabulary|
+|ms		|http://purl.org/ms-lod/MetaShare.ttl#	|	MetaShare|
 |dcat-dk	|	https://data.gov.dk/model/core/dcat-dk# |			DCAT DK	|
 
 
@@ -45,6 +46,7 @@ public administrative task type|	dcat-dk: publicAdministrative TaskType|	skos:Co
 | license|dct:license|dct:License|A legal document giving official permission to do something with the resource.|0..1 |
 | modality type|ms:modalityType|skos:Concept|Modality is the channel by which signs are transmitted (oral, gesture, written)|1..* |
 | annotation type|ms:annotationType|skos:Concept|---|0..* |
+| size information|ms:sizeInfo|ms:sizeInfo|Identifies the size of the resource|0..1|
 ...
 
 
@@ -57,3 +59,5 @@ Property|	URI|	Range|	Usage note|	Card |
 | format |dct:format|dct:MediaTypeOrExtent|This property refers to the media type of the Distribution as defined in the official register of media types managed by IANA|0..1|
 | licence|dct:license|dct:LicenseDocument|This property refers to the licence under which the Distribution is made available. |0..1|
 | language	|dct:language	|dct:LinguisticSystem	|This property refers to a language of the Distribution. This property can be repeated if there are multiple languages in the Dataset.|	0..n|
+| annotation type|ms:annotationType|skos:Concept|---|0..* |
+| size information|ms:sizeInfo|ms:sizeInfo|Identifies the size of the resource|0..1|
