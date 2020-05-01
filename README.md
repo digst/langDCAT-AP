@@ -1,4 +1,5 @@
 # langDCAT-AP
+Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt og datakataloger
 
 Prefix|	Namespace|	Vocabulary |
 |---|---|---|
@@ -21,7 +22,8 @@ Prefix|	Namespace|	Vocabulary |
 |dcat-dk	|	https://data.gov.dk/model/core/dcat-dk# |			DCAT-DK	|
 |dcat-ap-dk	|	https://data.gov.dk/model/profile/dcat-ap-dk# |			DCAT-AP-DK	|
 
-
+OBS: Vil blive opdateret iht. DCAT-AP-DK 2.0 når denne er godkendt. 
+Link: https://digst.github.io/DCAT-AP-DK/releases/v.2.0/docs/
 
 ### Klasse:Dataset (datasæt) 
 Property|	URI|	Range|	Usage note|	Card |
