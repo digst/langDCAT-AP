@@ -12,6 +12,7 @@ Forretningsområde (theme): http://www.form-online.dk/opgavenoegle/06/#06.38.10.
 Kommentar (comment) @da: Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt og datakataloger 
 Kommentar (comment) @en: Application profile for the description of language technology datasets and data catalogues
 
+
 Prefix|	Namespace|	Vocabulary |
 |---|---|---|
 |dct	|	http://purl.org/dc/terms/	|	Dublin Core Terms|
