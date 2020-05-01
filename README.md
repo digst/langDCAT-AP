@@ -12,8 +12,9 @@
 - Kommentar (comment) @da: Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt og datakataloger 
 - Kommentar (comment) @en: Application profile for the description of language technology datasets and data catalogues
 
-OBS: Denne anvendelsesprofil blive opdateret iht. DCAT-AP-DK 2.0 når denne er godkendt. 
-Link: https://digst.github.io/DCAT-AP-DK/releases/v.2.0/docs/
+OBS: Denne anvendelsesprofil blive opdateret iht. den dansk anvendelsesprofil for beskrivelse af datasæt og datakataloger DCAT-AP-DK 2.0 når denne er godkendt. 
+
+Læs mere om DCAT-AP-DK på dette link: https://digst.github.io/DCAT-AP-DK/releases/v.2.0/docs/
 
 Prefix|	Namespace|	Vocabulary |
 |---|---|---|
