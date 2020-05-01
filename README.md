@@ -1,5 +1,4 @@
-# langDCAT-AP
-Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt og datakataloger
+# langDCAT-AP: Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt og datakataloger
 
 Prefix|	Namespace|	Vocabulary |
 |---|---|---|
