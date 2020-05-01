@@ -3,7 +3,6 @@
 
 Prefix|	Namespace|	Vocabulary |
 |---|---|---|
-
 |owl	|	http://www.w3.org/2002/07/owl#	|	OWL Web Ontology Language|
 |voaf	|	http://purl.org/vocommons/voaf#	|	Vcommons|
 |dcat	|	http://www.w3.org/ns/dcat#	|		Data Catalog Vocabulary (DCAT)|
