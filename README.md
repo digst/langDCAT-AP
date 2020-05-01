@@ -1,4 +1,4 @@
-# langDCAT-AP: Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt og datakataloger 
+# langDCAT-AP: Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt 
 
 - Namespace: https://data.gov.dk/profile/langDCAT-AP/
 - Preferred prefix: langdcat-ap
@@ -9,8 +9,8 @@
 - Modelstatus (modelStatus): development
 - Godkendelsesstatus (approvalStatus): afventer godkendelse
 - Forretningsområde (theme): http://www.form-online.dk/opgavenoegle/06/#06.38.10.10
-- Kommentar (comment) @da: Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt og datakataloger 
-- Kommentar (comment) @en: Application profile for the description of language technology datasets and data catalogues
+- Kommentar (comment) @da: Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt 
+- Kommentar (comment) @en: Application profile for the description of language technology datasets 
 
 OBS: Denne anvendelsesprofil blive opdateret iht. den dansk anvendelsesprofil for beskrivelse af datasæt og datakataloger DCAT-AP-DK 2.0 når denne er godkendt. 
 
