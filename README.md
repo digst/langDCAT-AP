@@ -74,5 +74,6 @@ Property|	URI|	Range|	Usage note|	Card |
 | format |dct:format|dct:MediaTypeOrExtent|This property refers to the media type of the Distribution as defined in the official register of media types managed by IANA|0..1|
 | licence|dct:license|dct:LicenseDocument|This property refers to the licence under which the Distribution is made available. |0..1|
 | language	|dct:language	|dct:LinguisticSystem	|This property refers to a language of the Distribution. This property can be repeated if there are multiple languages in the Dataset.|	0..n|
-| annotation type|ms:annotationType|skos:Concept|---|0..* |
+| annotation type|ms:annotationType|ms:AnnotationType|Specifies the Annotation Level of the resource or the Annotation Type that a tool/ service requires or produces as an output|0..* |
 | size information|ms:sizeInfo|ms:sizeInfo|Identifies the size of the resource|0..1|
+...
