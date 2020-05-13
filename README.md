@@ -33,6 +33,7 @@ Prefix|	Namespace|	Vocabulary |
 |org	|	http://www.w3.org/ns/org# |		The Organization Ontology (W3C)|
 |dk		|http://www.data-knowledge.org/dk/	|	The Data Knowledge Vocabulary|
 |ms		|http://lodserver.iula.upf.edu/Metashare/ontology/	|	MetaShare|
+|duv		|http://www.w3.org/ns/duv#	|	Data Usage Vocabulary|
 |dcat	|	http://www.w3.org/ns/dcat#	|		Data Catalog Vocabulary (DCAT)|
 |dcat-dk	|	https://data.gov.dk/model/core/dcat-dk# |			DCAT-DK	|
 |dcat-ap-dk	|	https://data.gov.dk/model/profile/dcat-ap-dk# |			DCAT-AP-DK	|
