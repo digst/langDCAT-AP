@@ -32,7 +32,7 @@ Prefix|	Namespace|	Vocabulary |
 |vcard|	http://www.w3.org/2006/vcard/ns#| VCard Ontology
 |org	|	http://www.w3.org/ns/org# |		The Organization Ontology (W3C)|
 |dk		|http://www.data-knowledge.org/dk/	|	The Data Knowledge Vocabulary|
-|ms		|http://purl.org/ms-lod/MetaShare.ttl#	|	MetaShare|
+|ms		|http://lodserver.iula.upf.edu/Metashare/ontology/	|	MetaShare|
 |dcat	|	http://www.w3.org/ns/dcat#	|		Data Catalog Vocabulary (DCAT)|
 |dcat-dk	|	https://data.gov.dk/model/core/dcat-dk# |			DCAT-DK	|
 |dcat-ap-dk	|	https://data.gov.dk/model/profile/dcat-ap-dk# |			DCAT-AP-DK	|
