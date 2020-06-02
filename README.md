@@ -32,7 +32,6 @@ Prefix|	Namespace|	Vocabulary |
 |vcard|	http://www.w3.org/2006/vcard/ns#| VCard Ontology
 |org	|	http://www.w3.org/ns/org# |		The Organization Ontology (W3C)|
 |dk		|http://www.data-knowledge.org/dk/	|	The Data Knowledge Vocabulary|
-
 |duv		|http://www.w3.org/ns/duv#	|	Data Usage Vocabulary|
 |dcat	|	http://www.w3.org/ns/dcat#	|		Data Catalog Vocabulary (DCAT)|
 |dcat-dk	|	https://data.gov.dk/model/core/dcat-dk# |			DCAT-DK	|
