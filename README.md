@@ -37,7 +37,9 @@ Prefix|	Namespace|	Vocabulary |
 |dcat-dk	|	https://data.gov.dk/model/core/dcat-dk# |			DCAT-DK	|
 |dcat-ap-dk	|	https://data.gov.dk/model/profile/dcat-ap-dk# |			DCAT-AP-DK	|
 |langdcat-ap	|	https://data.gov.dk/model/profile/lang-dcat-ap# |			langDCAT-AP	|
-|ms		|http://lodserver.iula.upf.edu/Metashare/ontology/	|	MetaShare| Se også: http://www.meta-net.eu/meta-share/META-SHARE%20%20documentationUserManual.pdf & https://github.com/martavillegas/metadata
+|ms		|http://lodserver.iula.upf.edu/Metashare/ontology/	|	MetaShare| 
+
+Angående MetaShare - Se også: http://www.meta-net.eu/meta-share/META-SHARE%20%20documentationUserManual.pdf & https://github.com/martavillegas/metadata
 
 
 ### Klasse:Dataset (datasæt) 
