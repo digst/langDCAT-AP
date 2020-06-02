@@ -1,4 +1,4 @@
-# langDCAT-AP: Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt 
+# langDCAT-AP: Anvendelsesprofil til beskrivelse af sprogteknologiske datasæt (UDKAST/DRAFT)
 
 - Namespace: https://data.gov.dk/profile/langDCAT-AP/
 - Preferred prefix: langdcat-ap
@@ -32,11 +32,13 @@ Prefix|	Namespace|	Vocabulary |
 |vcard|	http://www.w3.org/2006/vcard/ns#| VCard Ontology
 |org	|	http://www.w3.org/ns/org# |		The Organization Ontology (W3C)|
 |dk		|http://www.data-knowledge.org/dk/	|	The Data Knowledge Vocabulary|
-|ms		|http://lodserver.iula.upf.edu/Metashare/ontology/	|	MetaShare|
+
 |duv		|http://www.w3.org/ns/duv#	|	Data Usage Vocabulary|
 |dcat	|	http://www.w3.org/ns/dcat#	|		Data Catalog Vocabulary (DCAT)|
 |dcat-dk	|	https://data.gov.dk/model/core/dcat-dk# |			DCAT-DK	|
 |dcat-ap-dk	|	https://data.gov.dk/model/profile/dcat-ap-dk# |			DCAT-AP-DK	|
+|langdcat-ap	|	https://data.gov.dk/model/profile/lang-dcat-ap# |			langDCAT-AP	|
+|ms		|http://lodserver.iula.upf.edu/Metashare/ontology/	|	MetaShare| Se også: http://www.meta-net.eu/meta-share/META-SHARE%20%20documentationUserManual.pdf & https://github.com/martavillegas/metadata
 
 
 ### Klasse:Dataset (datasæt) 
