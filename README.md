@@ -51,7 +51,6 @@ Property|	URI|	Range|	Usage note|	Card |
 | dataset responsible organisation |	dcat-dk: datasetResponsible Organisation|	org:FormalOrganisation	|(OBS: Dansk tilføjelse) datasætaansvarlig organisation: organisation  der er ansvarlig for den overordnede administration af alle forhold omkring et datasæt.|0..1|
 | theme/ category	|dcat:theme, subproperty of dct:subject	|skos:Concept	|This property refers to a category of the Dataset. A Dataset may be associated with multiple themes.	|0..n|
 | type	|dcat:type	|skos:Concept	|This property refers to the type of the Dataset. A controlled vocabulary for the values has been established based on The META-SHARE Metadata Schema	|0..n|
-public administrative task type|	dcat-dk: publicAdministrative TaskType|	skos:Concept|(OBS: Dansk tilføjelse) Forvaltningsopgave: Angiver en eller flere forvaltningsopgaver jf. FORM som har dannet grundlag for dataindsamlingen|	0..n	|
 | conforms to	|dct:conformsTo	|dct:Standard	|This property refers to an implementing rule or other specification.|	0..n|
 | documentation	|foaf:page	|foaf:Document|	This property refers to a page or document about this Dataset.|	0..n|
 | frequency	|dct:accrualPeriodicity	|dct:Frequency|	This property refers to the frequency at which Dataset is updated|	0..1|
