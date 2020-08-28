@@ -51,7 +51,6 @@ Property|	URI|	Range|	Usage note|	Card |
 | dataset responsible organisation |	dcat-dk: datasetResponsible Organisation|	org:FormalOrganisation	|(OBS: Dansk tilføjelse) datasætaansvarlig organisation: organisation  der er ansvarlig for den overordnede administration af alle forhold omkring et datasæt.|0..1|
 | theme/ category	|dcat:theme, subproperty of dct:subject	|skos:Concept	|This property refers to a category of the Dataset. A Dataset may be associated with multiple themes.	|0..n|
 | type	|dcat:type	|skos:Concept	|This property refers to the type of the Dataset. A controlled vocabulary for the values has been established based on The META-SHARE Metadata Schema	|0..n|
-| conforms to	|dct:conformsTo	|dct:Standard	|This property refers to an implementing rule or other specification.|	0..n|
 | documentation	|foaf:page	|foaf:Document|	This property refers to a page or document about this Dataset.|	0..n|
 | frequency	|dct:accrualPeriodicity	|dct:Frequency|	This property refers to the frequency at which Dataset is updated|	0..1|
 | landing page|	dcat:landingPage|	foaf:Document|	This property refers to a web page that provides access to the Dataset, its Distributions and/or additional information. |	0..1|
@@ -60,7 +59,6 @@ Property|	URI|	Range|	Usage note|	Card |
 | payment imposed|	dcat-dk: payment ImposedContents|	xsd:Boolean	|	(OBS: Dansk tilføjelse) Betalingspålagt: Angiver om der er pålagt en betaling på det pågældende datasæt. |0..1|
 | personal data category 	|dcat-dk: personalDataCategory	|skos:Concept	|(OBS: Dansk tilføjelse) Personoplysningskategori: Angiver hvilken type af personoplysninger som datasættet indeholder.|0..n	
 | legal ressource |cv:hasLegalResource	|eli:LegalResource|(OBS: Dansk tilføjelse)	Hjemmel: Den hjemmel forankret i lovgivningen som har været gældende for dataindsamlingen.	 |0..n	|
-| access rights|dct:accessRights|dct:RightsStatement| Information about who can access the resource or an indication of its security status.|---|
 | license|dct:license|dct:License|A legal document giving official permission to do something with the resource.|0..1 |
 | modality type|ms:modalityType|skos:Concept|Modality is the channel by which signs are transmitted (oral, gesture, written)|1..* |
 | annotation type|ms:annotationType|ms:AnnotationType|Specifies the Annotation Level of the resource or the Annotation Type that a tool/ service requires or produces as an output|0..* |
@@ -79,4 +77,5 @@ Property|	URI|	Range|	Usage note|	Card |
 | language	|dct:language	|dct:LinguisticSystem	|This property refers to a language of the Distribution. This property can be repeated if there are multiple languages in the Dataset.|	0..n|
 | annotation type|ms:annotationType|ms:AnnotationType|Specifies the Annotation Level of the resource or the Annotation Type that a tool/ service requires or produces as an output|0..* |
 | size information|ms:sizeInfo|ms:sizeInfo|Identifies the size of the resource|0..1|
+| conforms to	|dct:conformsTo	|dct:Standard	|This property refers to an implementing rule or other specification.|	0..n|
 ...
