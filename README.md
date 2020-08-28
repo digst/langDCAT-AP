@@ -4,8 +4,8 @@
 - Preferred prefix: langdcat-ap
 - Modelnavn (label): langDCAT-AP
 - Modelansvarlig (responsibleEntity): Digitaliseringsstyrelsen
-- Versionnummer (versionInfo): 0.2.0
-- Seneste opdateringsdato (dateModified): 2020-05-01
+- Versionnummer (versionInfo): 0.3.0
+- Seneste opdateringsdato (dateModified): 2020-08-28
 - Modelstatus (modelStatus): development
 - Godkendelsesstatus (approvalStatus): afventer godkendelse
 - Forretningsområde (theme): http://www.form-online.dk/opgavenoegle/06/#06.38.10.10
