@@ -54,8 +54,6 @@ Property|	URI|	Range|	Usage note|	Card |
 | documentation	|foaf:page	|foaf:Document|	This property refers to a page or document about this Dataset.|	0..n|
 | frequency	|dct:accrualPeriodicity	|dct:Frequency|	This property refers to the frequency at which Dataset is updated|	0..1|
 | landing page|	dcat:landingPage|	foaf:Document|	This property refers to a web page that provides access to the Dataset, its Distributions and/or additional information. |	0..1|
-| legal ressource |cv:hasLegalResource	|eli:LegalResource|(OBS: Dansk tilføjelse)	Hjemmel: Den hjemmel forankret i lovgivningen som har været gældende for dataindsamlingen.	 |0..n	|
-| license|dct:license|dct:License|A legal document giving official permission to do something with the resource.|0..1 |
 | modality type|ms:modalityType|skos:Concept|Modality is the channel by which signs are transmitted (oral, gesture, written)|1..* |
 | annotation type|ms:annotationType|ms:AnnotationType|Specifies the Annotation Level of the resource or the Annotation Type that a tool/ service requires or produces as an output|0..* |
 | size information|ms:sizeInfo|ms:sizeInfo|Identifies the size of the resource|0..1|
