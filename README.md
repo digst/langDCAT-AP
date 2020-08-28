@@ -65,7 +65,7 @@ Property|	URI|	Range|	Usage note|	Card |
 Property|	URI|	Range|	Usage note|	Card |
 |---|---|---|---|---|
 | accessURL	|dcat:accessURL	|rdfs:Resource|	A URL of the resource that gives access to a distribution of the dataset. E.g. landing page, feed, SPARQL endpoint.	|1..n|	
-| downloadURL	|dcat:downloadURL	|rdfs:Resource|	This property contains a URL that is a direct link to a downloadable file in a given format.	|1..n|		
+| downloadURL	|dcat:downloadURL	|rdfs:Resource|	This property contains a URL that is a direct link to a downloadable file in a given format.	|0..n|		
 | description|  dct:description	 |  rdfs:Literal |  This property contains a free-text account of the Distribution. This property can be repeated for parallel language versions of the description.	 |  0..n |   |	
 | title	|dct:title	|rdfs:Literal|	This property contains a name given to the Distribution. This property can be repeated for parallel language versions of the name.	|0..n|	
 | format |dct:format|dct:MediaTypeOrExtent|This property refers to the media type of the Distribution as defined in the official register of media types managed by IANA|0..1|
