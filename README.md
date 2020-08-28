@@ -49,7 +49,7 @@ Property|	URI|	Range|	Usage note|	Card |
 | title	|dct:title	|rdfs:Literal|	This property contains a name given to the Dataset. This property can be repeated for parallel language versions of the name.	|1..n|		
 | keyword|dcat:keyword|rdfs:Literal|This property contains a keyword or tag describing the Dataset.|0..*|
 | publisher	|dct:publisher|	foaf:Agent	|This property refers to an entity (organisation) responsible for making the Dataset available.|	0..1|
-| contact point	|dcat:contactPoint|	http://www.w3.org/2006/vcard/ns#Kind	|Relevant contact information for the catalogued resource. Use of vCard is recommended.|0..*|
+| contact point	|dcat:contactPoint|	vcard:Kind	|Relevant contact information for the catalogued resource. Use of vCard is recommended.|0..*|
 | dataset responsible organisation |	dcat-dk: datasetResponsible Organisation|	org:FormalOrganisation	|(OBS: Dansk tilføjelse) datasætaansvarlig organisation: organisation  der er ansvarlig for den overordnede administration af alle forhold omkring et datasæt.|0..1|
 | theme/ category	|dcat:theme, subproperty of dct:subject	|skos:Concept	|This property refers to a category of the Dataset. A Dataset may be associated with multiple themes.	|0..n|
 | type	|dcat:type	|skos:Concept	|This property refers to the type of the Dataset. A controlled vocabulary for the values has been established based on The META-SHARE Metadata Schema	|0..n|
